@@ -1,1 +1,2 @@
-# Formulaire Enregistrement/Suppression client et commande JEE.
+Formulaire Enregistrement/Suppression clients et commandes (avec java ee).
+

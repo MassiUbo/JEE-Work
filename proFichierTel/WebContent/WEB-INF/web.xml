@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  
+ <servlet>
+	<servlet-name>Download</servlet-name>
+	<servlet-class>com.sdzee.servlets.Download</servlet-class>
+	<init-param>
+		<param-name>chemin</param-name> 
+		<param-value>c:/fichiers/</param-value> 
+	</init-param>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Download</servlet-name>
+	<url-pattern>/fichiers/*</url-pattern>
+</servlet-mapping>
+ 
+</web-app>
